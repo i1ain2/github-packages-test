@@ -1,5 +1,5 @@
 {
-  "name": "package-test",
+  "name": "@i1ain2/lib-package-a",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
