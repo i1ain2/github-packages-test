@@ -1,8 +1,10 @@
 {
   "name": "serve",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,7 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@i1ain2/lib-package-a": "^1.0.0",
+    "@i1ain2/lib-package-a": "^1.0.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   }
 }

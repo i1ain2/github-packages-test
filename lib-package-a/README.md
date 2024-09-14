@@ -1,4 +1,4 @@
 
 ```shell
-npm publish -w @i1ain2/package-test
+NPM_AUTH_TOKEN=$(gh auth token) npm publish
 ```
